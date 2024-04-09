@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zeyada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  width: 100%;
+  height: 100%;
+}
+  
+  .rain-container {
+    position: absolute;
+    background: #05051F;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #transition {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  h1{
+    
+    font-size: 50px;
+    color: azure;
+    height: 200px;
+    width: 600px;
+    font-family: 'Zeyada', cursive;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+
+  :hover h1{
+    animation: bg;
+    animation-duration: 10s;
+    color: #05051F;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  :hover a{
+    color: darkmagenta;
+    font-size: 55px;
+  }
+
+  i {
+    position: absolute;
+    height: 80px;
+    border-radius: 0 0 999px 999px;
+    animation: animate 20s linear infinite;
+    animation-delay: 5s;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(-120px);
+    }
+    100% {
+      transform: translateY(calc(100vh + 120px));
+    }
+  }
+
+  @keyframes bg {
+    0%{
+      background: #05051F;
+    }
+
+    10% {
+      background: #05051F;
+    }
+    50% {
+      background: azure;
+    }
+    75% {
+      background: azure;
+    }
+    100% {
+      background: azure;
+    }
+
+  }

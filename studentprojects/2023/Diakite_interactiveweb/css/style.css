@@ -1,0 +1,22 @@
+body{
+    background: black;
+}
+
+.static {
+    position: absolute;
+    background: black;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+.gif {
+    margin-top: 250px;
+}
+
+.arrow {
+  margin-left: 1180px;
+  margin-top: 160px;
+}
+

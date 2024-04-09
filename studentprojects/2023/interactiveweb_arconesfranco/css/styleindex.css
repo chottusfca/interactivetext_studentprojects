@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zeyada&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    display: block;
+    margin-top: 1;
+    margin: auto;
+}
+
+div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  h1{
+    
+    font-size: 20px;
+    color: azure;
+    height: 10px;
+    width: 600px;
+    font-family: 'Zeyada', cursive;
+    padding-top: 700px;
+    padding-left: 600px;
+    padding-right: 450px;
+  }

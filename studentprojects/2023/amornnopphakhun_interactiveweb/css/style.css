@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Tilt+Prism&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    background-attachment:fixed;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+.sin{
+    position: absolute;
+    top: 362px;
+    left: 750px;
+}
+
+.ny{
+    position: absolute;
+    top: 360px;
+    left: 500px;
+}
+
+.cloud{
+    background-image: url(img/cloudsbg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.left{
+    position: absolute;
+    top: 620px;
+    left: 20px;
+
+}
+
+
+.right{
+    position: absolute;
+    top: 620px;
+    left: 1320px;
+
+}
+
+
+.title{
+    position:fixed;
+    text-align: center;
+    font-family: 'TiltPrism';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    -webkit-text-stroke: 1px goldenrod;
+    color: transparent;
+    background-image: linear-gradient(goldenrod, goldenrod);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -550px 0;
+    animation: backcolor 3s linear infinite alternate;
+}
+
+@keyframes backcolor {
+    100%{
+        background-position:0 0;
+    }
+}
+

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fffcf5;
+  font-size: 30px;
+  font-family: 'Gilda Display';
+}
+
+canvas{
+  outline: none;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: 75px;
+  color: #D4B1CE;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  font-size: 30px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*PAGE FOUR*/
+.element {
+  width: 100%;
+  height: 100%;
+  animation: pulse 3s infinite;
+  
+}
+
+@keyframes pulse {
+  0% {
+    color: #D4B1CE;
+  }
+  50%{
+    opacity: 0;
+  }
+  100% {
+    color: #D4B1CE;
+  }
+}
+
+.element2 {
+  width: 100%;
+  height: 100%;
+  animation: pulse 6s infinite;
+  
+}
+
+@keyframes pulse {
+  0% {
+    color: #D4B1CE;
+  }
+  50%{
+    opacity: 0;
+  }
+  100% {
+    color: #D4B1CE;
+  }
+}
+
+.element3 {
+  width: 100%;
+  height: 100%;
+  animation: pulse 4s infinite;
+  
+}
+
+@keyframes pulse {
+  0% {
+    color: #D4B1CE;
+  }
+  50%{
+    opacity: 0;
+  }
+  100% {
+    color: #D4B1CE;
+  }
+}
+/*PAGE FOUR*/
+
+#next {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-delay: 3s; /* add a 2 second delay */
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#next2 {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-delay: 3s; /* add a 2 second delay */
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#next3 {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}

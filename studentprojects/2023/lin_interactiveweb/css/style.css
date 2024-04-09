@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive; 
+    }
+
+    body {
+      background-color: #4097FF;
+
+    }
+
+.center{
+    font-size: 40px;
+    text-align: center; 
+    word-wrap:break-word;
+}
+footer{
+background-color: #868585;
+width: 100%;
+position:fixed;
+bottom: 0;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+
+#lineone{
+    background-color:#D9D9D9;
+    width:15%;
+    height:25px;
+    margin: 3%;
+
+}
+
+#linetwo{
+    background-color:#D9D9D9;
+    width:15%;
+    height:25px;
+    margin: 3%;
+
+}
+#linethree{
+    background-color:#D9D9D9;
+    width:15%;
+    height:25px;
+    margin: 3%;
+}
+#linefour{
+    background-color:#D9D9D9;
+    width:15%;
+    height:25px;
+    margin: 3%;
+}
+
+/*Page 3*/

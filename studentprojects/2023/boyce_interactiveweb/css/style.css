@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    
+}
+
+canvas {
+    position : fixed;
+    top: 7%;
+    left:11%;
+    right: auto;
+}
+
+.index{
+    background-image: url(../Img/repetition.png);
+    background-repeat: cover;
+}
+
+.page2{
+    background-image: url(../Img/repetition.png);
+    background-repeat: cover;
+    background-color: #FFEE99;
+}
+
+.page3{
+    background-image: url(../Img/repetition.png);
+}
+
+.arrow{
+    position:relative;
+}
+
+.heart{
+    position: relative;
+    right: -1180px;
+    top: 350px;
+}
+
+.panda{
+    position: relative;
+    right: 90px;
+    top: 0px;
+}

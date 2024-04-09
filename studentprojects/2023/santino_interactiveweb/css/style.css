@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bilbo&family=Rubik+Glitch&family=Rubik+Wet+Paint&family=Stick+No+Bills&family=Timmana&family=VT323&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+ }
+
+body {
+background-color:red;
+}
+
+a {
+    background-color: none;
+    text-decoration: none;
+    color: rgb(223, 230, 94); 
+}
+canvas{
+    display: block;
+    margin: auto;
+}
+
+#page11{
+    background-color: rgb(6, 170, 123);
+
+}
+#stairs1{
+background-color: rgb(7, 37, 183);
+}
+
+#stairs2{
+background-color: rgb(7, 37, 183);
+}
+
+#stairs3{
+    background-color: rgb(7, 37, 183);
+}
+#bigstar{
+    background-color: orange;
+}
